@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { CreditcardDirective } from './creditcard.directive';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreditcardDirective
+   
   ],
   imports: [
     BrowserModule
